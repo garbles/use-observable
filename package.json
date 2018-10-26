@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "Allows dereferencing of Observables using React hooks",
   "main": "build/index.js",
+  "types": "index.d.ts",
   "author": "Gabe Scholz",
   "homepage": "https://github.com/garbles/use-observable",
   "license": "MIT",
