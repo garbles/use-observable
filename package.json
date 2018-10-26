@@ -4,6 +4,7 @@
   "description": "Allows dereferencing of Observables using React hooks",
   "main": "build/index.js",
   "author": "Gabe Scholz",
+  "homepage": "https://github.com/garbles/use-observable",
   "license": "MIT",
   "scripts": {
     "start": "parcel demo/index.html --out-dir demo-dist",
