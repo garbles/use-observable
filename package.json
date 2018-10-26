@@ -1,0 +1,28 @@
+{
+  "name": "use-observable",
+  "version": "0.0.1",
+  "description": "Observables as first class values in React",
+  "main": "build/index.js",
+  "author": "Gabe Scholz",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel demo/index.html --out-dir demo-dist",
+    "build": "babel src --out-dir build",
+    "clean": "rm -rf build demo-dist .cache build"
+  },
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "parcel-bundler": "^1.10.3",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0",
+    "rxjs": "^6.3.3"
+  }
+}
