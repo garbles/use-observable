@@ -9,7 +9,8 @@
   "scripts": {
     "start": "parcel demo/index.html --out-dir demo-dist",
     "build": "babel src --out-dir build",
-    "clean": "rm -rf build demo-dist .cache build"
+    "clean": "rm -rf build demo-dist .cache build",
+    "prepublish": "build"
   },
   "peerDependencies": {
     "react": "^16.7.0-alpha.0",
