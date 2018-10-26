@@ -1,7 +1,22 @@
+# useObservable
+
+Allows dereferencing of Observables (see [RxJS](https://rxjs-dev.firebaseapp.com/)) using [React hooks](https://reactjs.org/docs/hooks-intro.html).
+
+## Install
+
+```
+yarn add use-observable
+```
+
+## Use
+
+This package exports a single function `useObservable<T>(obs: Observable<T>, defaultValue: T): T`.
+
+```jsx
 import React from "react";
 import ReactDOM from "react-dom";
 import { interval } from "rxjs";
-import useObservable from "../src/use-observable";
+import useObservable from "use-observable";
 
 const intCounter = interval(1000);
 
@@ -23,3 +38,4 @@ const App = () => {
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));
+```
