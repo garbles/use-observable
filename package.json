@@ -1,7 +1,7 @@
 {
   "name": "use-observable",
   "version": "0.0.1",
-  "description": "Observables as first class values in React",
+  "description": "Allows dereferencing of Observables using React hooks",
   "main": "build/index.js",
   "author": "Gabe Scholz",
   "license": "MIT",
