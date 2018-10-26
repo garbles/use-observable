@@ -1,6 +1,6 @@
 {
   "name": "use-observable",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Allows dereferencing of Observables using React hooks",
   "main": "build/index.js",
   "author": "Gabe Scholz",
