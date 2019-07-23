@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "outDir": "build",
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "lib": [
+            "dom",
+            "es2017"
+        ]
+    },
+    "include": [
+        "src/**/*.ts", 
+        "tests/**/*.ts",
+
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+    ]
+}

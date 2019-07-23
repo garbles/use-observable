@@ -1,6 +1,6 @@
 {
   "name": "use-observable",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Allows dereferencing of Observables using React hooks",
   "main": "build/index.js",
   "types": "index.d.ts",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel demo/index.html --out-dir demo-dist",
-    "build": "babel src --out-dir build",
+    "build": "npx tsc",
     "clean": "rm -rf build demo-dist .cache build",
     "prepublish": "npm run build"
   },
@@ -18,14 +18,12 @@
     "react-dom": "^16.7.0-alpha.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "@babel/preset-react": "^7.0.0",
-    "babel-core": "^7.0.0-bridge.0",
-    "parcel-bundler": "^1.10.3",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "parcel-bundler": "^1.12.3",
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0",
-    "rxjs": "^6.3.3"
+    "rxjs": "^6.3.3",
+    "typescript": "^3.5.3"
   }
 }
